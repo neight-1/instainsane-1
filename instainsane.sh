@@ -114,7 +114,7 @@ printf "\e[1;92m[*] Starting Tor on port:\e[0m\e[1;77m 9054\e[0m\n"
 tor -f multitor/multitor4 > /dev/null &
 sleep 6
 printf "\e[1;92m[*] Starting Tor on port:\e[0m\e[1;77m 9055\e[0m\n"
-tor -f multitor/multitor5 > /dev/null &
+tor -f multitor/multitor5 > /dev/null & 
 sleep 6
 checkcount=0
 printf "\e[1;92m[*] Checking Tor connection on port:\e[0m\e[1;77m 9051\e[0m..."
